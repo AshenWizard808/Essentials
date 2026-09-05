@@ -2340,6 +2340,7 @@ GameObject:
   - component: {fileID: 584708489}
   - component: {fileID: 584708488}
   - component: {fileID: 584708487}
+  - component: {fileID: 584708490}
   m_Layer: 3
   m_Name: Player 2 Controller
   m_TagString: Untagged
@@ -2403,6 +2404,22 @@ Transform:
   - {fileID: 979891654}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &584708490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584708486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9914d55c3075a4b14a80c1204e72e335, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key1: 100
+  key2: 97
+  direction1: 0
+  direction2: 180
 --- !u!1 &588042487
 GameObject:
   m_ObjectHideFlags: 0
@@ -4028,7 +4045,6 @@ GameObject:
   m_Component:
   - component: {fileID: 979891654}
   - component: {fileID: 979891653}
-  - component: {fileID: 979891656}
   - component: {fileID: 979891655}
   - component: {fileID: 979891657}
   m_Layer: 3
@@ -4131,22 +4147,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &979891656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 979891652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9914d55c3075a4b14a80c1204e72e335, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: 100
-  key2: 97
-  direction1: 0
-  direction2: 180
 --- !u!114 &979891657
 MonoBehaviour:
   m_ObjectHideFlags: 0
