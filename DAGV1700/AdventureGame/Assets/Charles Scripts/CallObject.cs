@@ -1,5 +1,5 @@
-﻿using UnityEngine;
+﻿//using UnityEngine;
 
-[RequireComponent(typeof)(SpriteRenderer))]
-public class CallObject : MonoBehaviour;
+//[RequireComponent(typeof)(SpriteRenderer))]
+//public class CallObject : MonoBehaviour;
 
