@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7150300566457418062}
   - component: {fileID: 4525263287693849959}
   - component: {fileID: 5644826175379405194}
-  m_Layer: 7
+  m_Layer: 13
   m_Name: Closed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112,7 +112,7 @@ GameObject:
   - component: {fileID: 2507532760726078121}
   - component: {fileID: 4443092661814658498}
   - component: {fileID: 418699426363928626}
-  m_Layer: 7
+  m_Layer: 13
   m_Name: Open
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -216,15 +216,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2253911629886400664, guid: ce02e92465e6c414982fd12c7586e30e, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: ce02e92465e6c414982fd12c7586e30e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 12
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: ce02e92465e6c414982fd12c7586e30e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 12
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: ce02e92465e6c414982fd12c7586e30e, type: 3}
       propertyPath: m_LocalScale.z
@@ -232,11 +232,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: ce02e92465e6c414982fd12c7586e30e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.28
+      value: -15.616419
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: ce02e92465e6c414982fd12c7586e30e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.92
+      value: -6.2864847
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: ce02e92465e6c414982fd12c7586e30e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -376,30 +376,6 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 360824418486437650}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.BoxCollider, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6

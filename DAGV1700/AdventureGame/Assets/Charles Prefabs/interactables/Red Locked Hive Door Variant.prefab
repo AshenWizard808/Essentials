@@ -68,6 +68,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -5930912436971704684, guid: 3f9d1f861ce5b82448a02057e19c1b35, type: 3}
+    - target: {fileID: 9167095511042478028, guid: 05f36cb10968cae4d8d2816574f9bb46, type: 3}
+      propertyPath: id
+      value: 
+      objectReference: {fileID: 11400000, guid: debb8f0265ce065429c2421477b9f9b0, type: 2}
+    - target: {fileID: 9179838563271032838, guid: 05f36cb10968cae4d8d2816574f9bb46, type: 3}
+      propertyPath: id
+      value: 
+      objectReference: {fileID: 11400000, guid: debb8f0265ce065429c2421477b9f9b0, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
